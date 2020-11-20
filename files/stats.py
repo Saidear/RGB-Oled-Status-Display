@@ -49,8 +49,7 @@ bottom = height-padding
 # Move left to right keeping track of the current x position for drawing shapes.
 x = 0
 
-# Load Truetype font from https://www.dafont.com/bitmap.php
-# VCR OSD Mono by Riciery Leal
+# Load Truetype font
 font = ImageFont.truetype('cambriab.ttf',15)
 font1 = ImageFont.truetype('cambriab.ttf',12)
 
@@ -107,7 +106,6 @@ def uptime():
 mode=0
 
 # Is WiFi or Ethernet active?  (prioritizes Ethernet)
-
 def stat_icon():
     root= '/sys/class/net'
     netfaces = [ item for item in os.listdir(root) if os.path.isdir(os.path.join(root, item)) ]
@@ -214,6 +212,5 @@ while True:
     draw.text((x, bottom-13),    str(uptime()),font=font1, fill= "WHITE")
 
     # Display image.
-#    counter +1
     disp.Display_Image(image)
     disp.Delay(900)
