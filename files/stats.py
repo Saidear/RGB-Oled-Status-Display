@@ -1,29 +1,5 @@
 #!/usr/bin/python3
 #-----------------------------------------------------------
-#    ___  ___  _ ____
-#   / _ \/ _ \(_) __/__  __ __
-#  / , _/ ___/ /\ \/ _ \/ // /
-# /_/|_/_/  /_/___/ .__/\_, /
-#                /_/   /___/
-#
-# Project : Pi-Hole Status Screen
-# File    : stats.py
-#
-# Script to provide a status screen for a Pi-Hole system.
-# Requires an I2C OLED screen, momentary button and an LED with current limiting resistor.
-#
-# Author : Matt Hawkins
-# Date   : 15/10/2019
-# Source : https://bitbucket.org/MattHawkinsUK/rpispy-misc/src/master/pihole/
-#
-# Additional details here:
-# https://www.raspberrypi-spy.co.uk/
-#
-# gpiozero Button reference:
-# https://gpiozero.readthedocs.io/en/stable/recipes.html#button
-#
-# gpiozero LED PWM reference:
-# https://gpiozero.readthedocs.io/en/stable/recipes.html#led-with-variable-brightness
 #
 #-----------------------------------------------------------
 
