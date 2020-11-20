@@ -8,6 +8,7 @@ My effort to build a comprehensive, informative and active display with a Wavesh
 Libraries needed (but not included)
   * PSUTIL: https://github.com/giampaolo/psutil/blob/master/INSTALL.rst
   * RPi.GPIO: https://sourceforge.net/projects/raspberry-gpio-python/
+  * SPiDev: https://github.com/doceme/py-spidev
  
  Fonts needed:
   * cambriab.ttf: https://github.com/jondot/dotfiles/tree/master/.fonts
